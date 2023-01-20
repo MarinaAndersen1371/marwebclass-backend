@@ -10,6 +10,10 @@ Icon
 .Trashes
 ._*
 
+.vscode
+yarn.lock
+package-lock.json
+
 
 ############################
 # Linux
@@ -36,6 +40,7 @@ package-lock.json
 # Packages
 ############################
 
+
 *.7z
 *.csv
 *.dat
@@ -59,7 +64,6 @@ package-lock.json
 *.swm
 *.out
 *.pid
-
 
 ############################
 # Logs and databases
@@ -106,9 +110,11 @@ coverage
 # Strapi
 ############################
 
+
 .env
 license.txt
 exports
 *.cache
 build
 .strapi-updater.json
+
